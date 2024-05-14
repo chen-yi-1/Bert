@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # os.environ["CUDA_VISIBLE_DEVICES"] = '2'
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     print(f'Using {device} device')
-    batch_size = 24
+    batch_size = 12
     checkpoint = "/t-ng/Bert/bert_model/MyModel"
     input_path = sys.argv[1]
     output_dir = sys.argv[2]
